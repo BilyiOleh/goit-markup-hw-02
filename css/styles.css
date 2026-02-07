@@ -50,10 +50,10 @@ a {
 .address-link:focus {
     color: #404bbf;
 }
-.section {
+.main-section {
     background-color: #2e2f42;
 }
-.section-title {
+.main-section-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -61,16 +61,30 @@ a {
     text-align: center;
     color: #fff;
 }
-.section-title-btn {
+.main-section-title-btn {
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
-.section-title-btn:hover {
+.main-section-title-btn:hover {
     background-color: #404bbf;
+}
+
+.feature-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-team {
@@ -92,7 +106,7 @@ a {
     text-align: center;
     color: #2e2f42;
 }
-.subject-text {
+.subject-team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
