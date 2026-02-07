@@ -70,7 +70,8 @@ a {
     color: #fff;
     cursor: pointer;
 }
-.main-section-title-btn:hover {
+.main-section-title-btn:hover,
+.main-section-title-btn:focus {
     background-color: #404bbf;
 }
 
